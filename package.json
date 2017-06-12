@@ -4,14 +4,20 @@
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
-  "keywords": ["ionic", "devdactic", "whatever"],
+  "keywords": [
+    "ionic",
+    "devdactic",
+    "whatever"
+  ],
   "scripts": {
+    "postinstall": "gulp build",
+"start": "node server.js",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@angular/common": "4.1.2",
@@ -27,6 +33,7 @@
     "@ionic-native/status-bar": "3.10.2",
     "@ionic/storage": "2.0.1",
     "express": "^4.15.3",
+    "gulp": "^3.9.1",
     "ionic-angular": "3.3.0",
     "ionicons": "3.0.0",
     "rxjs": "5.1.1",
