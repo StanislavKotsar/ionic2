@@ -4,24 +4,18 @@ page-main-menu {
     background-size: cover;
     background-position: center;
   }
-  .header.header-ios>img, .header.header-md>img{
-  width: 28vw;
-  margin: auto !important;
-  display: block;
+  .header.header-ios>img,.header.header-md>img{
+  height: 15vh;
   position: absolute;
-  top: 0px;
-  left: 36%;
+  top: 0;
+  left: 38%;
   overflow: visible;
 
   }
   ion-navbar{
     height: 12vh;;
   }
-  img{
-    display: block;
-    width: 27vw;
-    margin: auto !important;
-  }
+
     ion-grid{
           margin-top: 10vh;
     }
