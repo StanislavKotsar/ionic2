@@ -1,0 +1,77 @@
+page-main-menu {
+  ion-content{
+    background-image: url('../img/newbanner-aboutus.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .header.header-ios>img, .header.header-md>img{
+  width: 28vw;
+  margin: auto !important;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 36%;
+  overflow: visible;
+
+  }
+  ion-navbar{
+    height: 12vh;;
+  }
+  img{
+    display: block;
+    width: 27vw;
+    margin: auto !important;
+  }
+    ion-grid{
+          margin-top: 10vh;
+    }
+    ion-row{
+      width: 86%;
+      margin: 0 auto;
+    }
+
+  .sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gold;
+    width: 90%;
+    margin: 0 auto;
+    height: 9.6vh;
+  }
+  .sign h2{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .col {
+    padding:  1px;
+
+
+  }
+  .container{
+    margin: 0;
+  }
+  .second{
+    float: left;
+    margin: 0
+  }
+
+  .col div{
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  ion-icon{
+    font-size: 4.7rem;
+    margin: 0;
+    padding: 0;
+  }
+  h4{
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+}

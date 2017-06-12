@@ -1,0 +1,59 @@
+page-login {
+
+ ion-label{
+   font-size: 7rem;
+   text-transform: capitalize;;
+   font-family: 'Roboto Slab', serif;
+   color: black;
+ }
+
+ form{
+   margin-top: 7.5vh;
+ }
+ button{
+
+
+   font-family: 'Roboto Slab', serif;
+
+ }
+#logBtn{
+  margin-top: 7vh;
+  margin-bottom: 3vh;
+  color: white;
+  background-color: #5f1842;
+  border-radius: 0;
+  font-size: 1.7rem;
+
+}
+
+#regBtn{
+  color: white;
+  background-color: #999999;
+  border-radius: 0;
+  font-size: 1.7rem;
+}
+p{
+  font-size: 1.1rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.pass{
+
+  margin-top: 6vh;
+}
+
+.password{
+  margin-top: 6vh;
+}
+img{
+  margin: auto !important;
+  display: block;
+}
+
+.content-ios img, .content-md img{
+height: 17vh;
+
+}
+
+
+}

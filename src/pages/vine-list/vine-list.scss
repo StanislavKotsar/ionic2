@@ -1,0 +1,46 @@
+page-vine-list {
+
+  .header.header-ios>img,.header.header-md>img{
+  height: 15vh;
+  position: absolute;
+  top: 0;
+  left: 38%;
+  overflow: visible;
+
+  }
+  .content{
+    background-color: #f3f3f3;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 3vh !important;
+  }
+  .item-block{
+    color: #5f1842;
+  }
+  ion-list{
+    margin-bottom: 0px !important;
+  }
+  .first{
+    background-color: #f3f3f3 !important;
+  }
+  .second{
+    font-size: 1.5rem;
+    color: #666666;
+    margin-bottom: 2px !important;
+  }
+  h3{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #666666;
+    font-size: 1.5rem;
+  }
+
+  ion-navbar{
+    height: 12.5vh;
+  }
+
+  .ion-header{
+    background: white !important;
+    height: 12.5vh;
+  }
+}
