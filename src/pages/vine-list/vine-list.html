@@ -18,10 +18,9 @@
 </ion-header>
 
 <ion-content>
-
   <ion-list no-lines>
     <ion-item class="first">
-         <ion-icon name="funnel" float-right></ion-icon>ADD TO LIST
+         <ion-icon name="funnel" float-right></ion-icon>ADD TO ORDER
     </ion-item>
      <ion-item class="first">
        Red Wine
@@ -30,9 +29,11 @@
 
 <ion-list no-lines>
   <ion-item text-wrap  class="second" *ngFor="let k of numbers">
-    <span item-end>£17</span>
     <ion-icon name="arrow-forward" item-end ></ion-icon>
-    Weingut Von Winning Riesling  2015 Pfalz Germany
+    <p id="text-content">
+    <span id="pound">£17</span>
+    <span id="text">Weingut Von Winning Riesling  2015 Pfalz Germany</span>
+  </p>
   </ion-item>
 </ion-list>
 <h3 text-center>To see wines by the bottle, click the filter icon above</h3>

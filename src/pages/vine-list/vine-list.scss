@@ -5,9 +5,35 @@ page-vine-list {
   position: absolute;
   top: 0;
   left: 38%;
-  overflow: visible;
+
+
 
   }
+
+#text-content{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+#pound{
+
+  float: right;
+  text-align: right;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.1rem;
+  margin-top: -1%;
+
+
+}
+
+#text{
+  float: left;
+  width: 85%;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
   .content{
     background-color: #f3f3f3;
     font-family: 'Roboto Slab', serif;
@@ -20,12 +46,24 @@ page-vine-list {
     margin-bottom: 0px !important;
   }
   .first{
+    font-family: anotherTypewriter;
+    font-weight: 900;
+
+    font-size: 1.3rem;
     background-color: #f3f3f3 !important;
   }
   .second{
-    font-size: 1.5rem;
+    font-family: anotherTypewriter;
+    font-weight: 900;
     color: #666666;
     margin-bottom: 2px !important;
+
+  }
+
+  .item-ios p {
+
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
   h3{
     width: 60%;
@@ -38,9 +76,15 @@ page-vine-list {
   ion-navbar{
     height: 12.5vh;
   }
-
+  .toolbar-background {
+    background-color: white;
+}
   .ion-header{
-    background: white !important;
+
     height: 12.5vh;
+  }
+
+  .header-md::after{
+    background-image: none;
   }
 }

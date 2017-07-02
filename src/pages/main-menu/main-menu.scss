@@ -5,12 +5,19 @@ page-main-menu {
     background-position: center;
   }
   .header.header-ios>img,.header.header-md>img{
-  height: 15vh;
-  position: absolute;
-  top: 0;
-  left: 38%;
-  overflow: visible;
+      height: 15vh;
+    margin: auto !important;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 36%;
+    overflow: visible;
+  }
 
+  img{
+    display: block;
+    margin: auto !important;
+    z-index: 1;
   }
   ion-navbar{
     height: 12vh;;
@@ -64,8 +71,13 @@ page-main-menu {
     padding: 0;
   }
   h4{
-    font-size: 1.5rem;
+    font-family: anotherTypewriter;
+    font-size: 1.2rem;
     margin: 0;
   }
+
+  .toolbar-background {
+    background-color: white;
+}
 
 }
