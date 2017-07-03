@@ -13,10 +13,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'vine-list.html',
 })
 export class VineListPage {
-numbers;
+numbers =  Array(5).fill(4);
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.numbers = Array(5).fill(4);
+
   }
 
   ionViewDidLoad() {

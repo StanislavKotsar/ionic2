@@ -15,16 +15,8 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:500');
-@font-face {
-	font-family: 'Apercu';
-	src: url('Apercu-Mono.eot');
-	src: url('Apercu-Mono.eot?#iefix') format('embedded-opentype'),
-		url('Apercu-Mono.woff') format('woff'),
-		url('Apercu-Mono.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
+
 @font-face {
   font-family: 'anotherTypewriter';
-  src: url('TypeWrong Smudged Bold.ttf');
+  src: url('TypeWrong.ttf');
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { VineListPage } from '../vine-list/vine-list';
 /**
@@ -13,12 +13,16 @@ import { VineListPage } from '../vine-list/vine-list';
   templateUrl: 'main-menu.html',
 })
 export class MainMenuPage {
-  items:[{name:string, iconName}]= [
+
+  items:[{name:string, iconName:string}]= [
     {name:'ORDER', iconName:'basket'},{name:'LOYALTY', iconName:'wine'},{name:'BOOK A TABLE', iconName:'calendar'},
     {name:'FAVORITES', iconName:'heart'}, {name:'FEEDBACK', iconName:'text'},{name:'OUR MENU', iconName:'book'}
   ];
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MainMenuPage');

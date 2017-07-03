@@ -4,20 +4,19 @@ page-main-menu {
     background-size: cover;
     background-position: center;
   }
-  .header.header-ios>img,.header.header-md>img{
-      height: 15vh;
-    margin: auto !important;
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 36%;
-    overflow: visible;
-  }
 
+  .wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 0;
+  }
   img{
-    display: block;
-    margin: auto !important;
     z-index: 1;
+    height: 15vh;
+    position:  relative;
+    top: -12.5vh;
+    overflow: visible !important;
   }
   ion-navbar{
     height: 12vh;;
@@ -35,20 +34,18 @@ page-main-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     background-color: gold;
     width: 90%;
     margin: 0 auto;
     height: 9.6vh;
   }
   .sign h2{
+    margin: 0;
     text-align: center;
     font-size: 2.5rem;
   }
   .col {
     padding:  1px;
-
-
   }
   .container{
     margin: 0;
@@ -78,6 +75,8 @@ page-main-menu {
 
   .toolbar-background {
     background-color: white;
+    height: 12.5vh;
+    overflow: visible;
 }
 
 }
